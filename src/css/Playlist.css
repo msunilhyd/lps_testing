@@ -1,0 +1,143 @@
+* {
+	font-family: Ubuntu, sans-serif;
+}
+
+img.rounded-circle {
+	max-width: 24px;
+}
+
+.header {
+	padding: 10px 10px;
+}
+
+.header h3 {
+	padding:0;
+}
+
+.song-title {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: initial;
+}
+
+.playlist .btn.btn-neutral {
+	padding: 0;
+}
+
+.playlist-item{
+	/* color: darkslategrey; */
+	background: transparent;
+}
+
+.playlist-item.hidden {
+	display: none;
+}
+
+.progress {
+	cursor: pointer;
+}
+
+.progress-container .progress {
+    height: 5px;
+}
+
+
+.img-responsive {
+	max-width: 100%;
+}
+
+
+.card-playlist{
+	border: 0;
+	border-radius: 0.1875rem;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 20px;
+	box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+	flex-direction: column;
+	background-color: aliceblue;
+	background: border-box;
+}
+
+.card-playlist {
+	background: transparent;
+}
+
+
+
+.card-playlist .card-block {
+	padding: 1.25rem;
+	background: transparent;
+	text-align: center;
+}
+
+.wrapper {
+	position: relative;
+	/* padding-top: 56.25%;	 */
+  }
+
+  .songs {
+	padding-top: 40px;
+	text-align: left;
+  }
+
+  .videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    /* padding-top: 25px; */
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container .page{
+	padding-top: 130px
+}
+
+.top-row{
+	padding-top: 130px;
+	min-height: 200px;
+	margin-top: -100px;
+}
+
+
+
+.mainLogo{
+	display: block;
+  max-width: 100%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.main-Logo{
+	display:block;
+	margin:auto;
+	width: 50%;
+	height: 50%;
+	margin-bottom: 60px;
+}
+
+.play-pause{
+	color: deeppink;
+}
+
+.song-language{
+	color: darkaliceblue;
+}
+
+
+/* .song-composer{
+	color:deeppink;
+} */
